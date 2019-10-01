@@ -2,6 +2,7 @@
 
 define('ACPATH', '/protected/components/');
 
+import_('u');
 import_('log');
 
 function import($class_file_path, $parent_dir = null) {
